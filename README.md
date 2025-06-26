@@ -161,7 +161,7 @@ npm test
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed ....
 
 ## 🙏 Acknowledgments
 
@@ -173,4 +173,4 @@ This project is licensed under the MIT License.
 
 ## 📞 Support
 
-For support, email support@codebattle.com or create an issue in the repository.
+For support, email kushalyadav589@gmail.com or create an issue in the repository.
