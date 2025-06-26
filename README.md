@@ -16,7 +16,7 @@ A modern, real-time competitive coding platform where developers can compete in 
 - **Badge System**: Achievements for Fast Solver, Bug Hunter, Streak Master, etc.
 - **User Authentication**: JWT-based secure authentication
 - **Problem Management**: CRUD operations for coding problems
-- **Code Execution**: Judge0 API integration for testing solutions
+- **Code Execution**: Judge0 API integration for testing solutions 
 
 ### 🎯 Tech Stack
 - **Frontend**: React + Vite + Tailwind CSS + Socket.IO Client
