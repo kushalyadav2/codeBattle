@@ -11,6 +11,8 @@ import Rooms from './pages/Rooms';
 import Room from './pages/Room';
 import Leaderboard from './pages/Leaderboard';
 import Profile from './pages/Profile';
+import Practice from './pages/Practice';
+import ProblemDetail from './pages/ProblemDetail';
 import ProtectedRoute from './components/ProtectedRoute';
 
 function App() {
@@ -42,6 +44,10 @@ function App() {
                     <Profile />
                   </ProtectedRoute>
                 } />
+                <Route path="/practice" element={<Practice />} />
+                <Route path="/practice/:problemId" element={<ProblemDetail />} />
+                <Route path="/problems" element={<Practice />} />
+                <Route path="/problems/:problemId" element={<ProblemDetail />} />
               </Routes>
             </main>
           </div>

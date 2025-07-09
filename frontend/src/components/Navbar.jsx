@@ -2,15 +2,16 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { useSocket } from '../contexts/SocketContext';
-import { 
-  Code, 
-  Trophy, 
-  Users, 
-  User, 
-  LogOut, 
-  Menu, 
+import {
+  Code,
+  Trophy,
+  Users,
+  User,
+  LogOut,
+  Menu,
   X,
-  Zap
+  Zap,
+  BookOpen
 } from 'lucide-react';
 
 const Navbar = () => {
@@ -26,6 +27,7 @@ const Navbar = () => {
   };
 
   const navLinks = [
+    { to: '/practice', label: 'Practice', icon: BookOpen },
     { to: '/rooms', label: 'Rooms', icon: Users },
     { to: '/leaderboard', label: 'Leaderboard', icon: Trophy },
   ];

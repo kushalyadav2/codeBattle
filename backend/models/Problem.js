@@ -11,14 +11,14 @@ const testCaseSchema = new mongoose.Schema({
   },
   isHidden: {
     type: Boolean,
-    default: false
+    default: true
   }
 });
 
 const problemSchema = new mongoose.Schema({
   title: {
     type: String,
-    required: true,
+    required: true, 
     trim: true
   },
   description: {
